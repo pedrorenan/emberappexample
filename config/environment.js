@@ -16,7 +16,12 @@ module.exports = function(environment) {
         Date: false
       }
     },
-
+    firebase: {
+    apiKey: 'AIzaSyASip6VFLd0sSGJGGkc8qE0iCq-WGLZR70',
+    authDomain: 'campus-ember.firebaseapp.com',
+    databaseURL: 'https://campus-ember.firebaseio.com',
+    storageBucket: 'campus-ember.appspot.com',
+  },
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created

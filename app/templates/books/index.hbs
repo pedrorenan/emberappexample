@@ -1,0 +1,12 @@
+<h2>Listagem de Livros</h2>
+
+<table>
+    <tr>
+      <td>titulo</td>
+      <td>author</td>
+      <td>bio</td>
+    </tr>
+    {{#each model as |book|}}
+      {{book-row book=book}}
+    {{/each}}
+</table>

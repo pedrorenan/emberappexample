@@ -1,5 +1,7 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+{{#bs-nav type="pills" as |nav|}}
+  {{#nav.item}}{{#nav.link-to "books.index"}}Home{{/nav.link-to}}{{/nav.item}}
+  {{#nav.item}}{{#nav.link-to "books.new"}}Criar Item{{/nav.link-to}}{{/nav.item}}
+{{/bs-nav}}
+
 
 {{outlet}}
